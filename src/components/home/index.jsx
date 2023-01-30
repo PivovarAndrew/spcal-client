@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './home.module.scss';
 import logo from 'logo.svg';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             </div>
 
             <div className={styles.subNav}>
+                <Link to="/">
                     <div className={styles.container}>
                         <div className={styles.title}>
                             <h1>SP</h1> <h2>Calibration Suisse</h2>
@@ -18,6 +20,7 @@ const Home = () => {
 
                         <img src={logo} alt="logo"></img>
                     </div>
+                </Link>
             </div>
         </div>
     )
