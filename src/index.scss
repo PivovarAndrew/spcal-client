@@ -39,6 +39,11 @@ p {
   animation: fadeIn 0.6s;
 }
 
+h3 {
+  font-size: 34px;
+  color: var(--theme-color);
+}
+
 @keyframes fadeIn {
   0% {
     transform: scale(0);

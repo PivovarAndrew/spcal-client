@@ -127,4 +127,36 @@
             }
         }
     }
+
+    p {
+        font-size: 28px;
+        font-weight: 400;
+        color: var(--theme-color);
+    }
+
+    .textBlock {
+        margin: 5% auto;
+        padding: 20px;
+
+        $dash-size: 5px;
+        $border-color: darkolivegreen
+            /*mediumseagreen*/
+        ;
+
+        border-radius: 0.5%;
+        width: 90%;
+
+        background: lighten($border-color, 20%);
+        border: $dash-size dashed $border-color;
+        box-shadow: 0 0 0 ($dash-size / 2) darken($border-color, 20%),
+            0 0 0 ($dash-size * 2.5) white,
+            inset 0 0 0 ($dash-size / 2) darken($border-color, 20%),
+            0 $dash-size rgba(0, 0, 0, 0.5),
+            inset 0 0 0 ($dash-size * 1.2) white,
+            inset 0 0 100vw 100vw white;
+
+        h3+p {
+            margin-top: 0;
+        }
+    }
 }

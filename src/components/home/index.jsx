@@ -48,6 +48,42 @@ const Home = () => {
                     <button type="button">What is calibration?</button>
                 </div>
             </div>
+
+            <section>
+                <p>SP Calibration Suisse performs calibrations on universal tensile and compression testing machines. We repair and maintain testing machines and then create a calibration certificate according to the standard.</p>
+            </section>
+
+            <div className={styles.textBlock}>
+                <h3>Calibration laboratory at SP Calibration Suisse</h3>
+                <p>We offer in-house calibrations of force and displacement sensors.</p>
+            </div>
+
+            <div className={styles.textBlock}>
+                <h3>On-site calibrations</h3>
+                <p>We have the possibility to carry out a calibration within Switzerland by our trained personnel.</p>
+            </div>
+
+            <h3>An interplay</h3>
+
+            <div className={styles.group}>
+                <section>
+                    <p>Repair</p>
+                </section>
+
+                <section>
+                    <p>Preventive maintenance</p>
+                </section>
+            </div>
+
+            <p>We make repairs of hydraulic and mechanical test presses, testing machines and accessories.</p>
+
+            <button type="button">Start inquiry.</button>
+
+            <div className={styles.textBlock}>
+                <p>Have the presses / testing machines to be calibrated already stopped during calibration or before? Then we are here for you. Thanks to our competent team, we are able to solve almost any problem on site with our expertise and years of experience.</p>
+            </div>
+
+            <h3>Sale</h3>
         </div>
     )
 }
