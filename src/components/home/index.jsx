@@ -84,6 +84,11 @@ const Home = () => {
             </div>
 
             <h3>Sale</h3>
+
+            <div className={styles.group}>
+                <img src="images/pic1.png" alt="pic1" />
+                <img src="images/pic2.png" alt="pic2" />
+            </div>
         </div>
     )
 }

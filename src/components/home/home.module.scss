@@ -77,6 +77,24 @@
             min-width: 600px;
             max-width: 600px;
             margin: 0;
+        &:has(section) {
+            gap: 40px;
+
+            section {
+                min-width: 600px;
+                max-width: 600px;
+                margin: 0;
+            }
+        }
+
+        &:has(img) {
+            gap: 20%;
+
+            img {
+                min-width: 400px;
+                max-width: 400px;
+                object-fit: fill;
+            }
         }
     }
 
