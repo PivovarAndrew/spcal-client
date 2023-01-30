@@ -32,6 +32,22 @@ const Home = () => {
                     </div>
                 </Link>
             </div>
+
+            <div className={styles.productContainer}>
+                <img src="images/calibrate.jpeg" alt={"Calibrate"} />
+
+                <div className={styles.info}>
+                    <div className={styles.name}>
+                        <a href="#">Calibrate</a>
+                    </div>
+
+                    <p>ISO 17025 certified</p>
+                    <p>Force calibration according to ISO 7500-1</p>
+                    <p>Truss path and extensiometer calibration</p>
+
+                    <button type="button">What is calibration?</button>
+                </div>
+            </div>
         </div>
     )
 }
