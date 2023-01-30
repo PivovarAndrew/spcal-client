@@ -11,6 +11,16 @@ const Home = () => {
                 <h1>More service, more security</h1>
             </div>
 
+            <div className={styles.group}>
+                <section>
+                    <p>Customer satisfaction is our top priority!</p>
+                </section>
+
+                <section>
+                    <p>That's why we are so well known for our professional service.</p>
+                </section>
+            </div>
+
             <div className={styles.subNav}>
                 <Link to="/">
                     <div className={styles.container}>
