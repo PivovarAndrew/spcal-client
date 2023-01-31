@@ -31,6 +31,16 @@ const Contact = () => {
 
                     <button type="submit" name="submit" id="send">Send</button>
                 </div>
+
+                <div className={styles.mapContainer}>
+                    <div className={styles.info}>
+                        <p>SP Calibration Suisse GmbH</p>
+                        <p>Churerstrasse 47</p>
+                        <p>8808 Pfäffikon SZ</p>
+                        <a href="tel:+41555110825"><p>+41 (0) 55 511 08 25</p></a>
+                        <a href="mailto:info@spcal.ch"><p>info@spcal.ch</p></a>
+                    </div>
+                </div>
             </div>
         </>
     )

@@ -54,4 +54,16 @@
             width: 200px;
         }
     }
+
+    .mapContainer {
+        .info {
+            p {
+                font-size: 16px;
+            }
+
+            a {
+                color: var(--link-color);
+            }
+        }
+    }
 }
