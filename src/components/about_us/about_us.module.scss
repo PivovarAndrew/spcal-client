@@ -9,4 +9,8 @@
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 70px;
+
+    div.textBlock {
+        max-width: 550px;
+    }
 }

@@ -71,12 +71,7 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
         justify-content: center;
-        gap: 40px;
 
-        section {
-            min-width: 600px;
-            max-width: 600px;
-            margin: 0;
         &:has(section) {
             gap: 40px;
 
