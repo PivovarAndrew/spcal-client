@@ -77,7 +77,7 @@ const Home = () => {
 
             <p>We make repairs of hydraulic and mechanical test presses, testing machines and accessories.</p>
 
-            <button type="button">Start inquiry.</button>
+            <Link to="/contact"><button type="button">Start inquiry.</button></Link>
 
             <div className={styles.textBlock}>
                 <p>Have the presses / testing machines to be calibrated already stopped during calibration or before? Then we are here for you. Thanks to our competent team, we are able to solve almost any problem on site with our expertise and years of experience.</p>
