@@ -1,0 +1,12 @@
+.container {
+    font-size: 26px;
+    color: var(--theme-color);
+    text-align: justify;
+    padding-top: 5px;
+    padding-left: 100px;
+    padding-right: 50px;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 70px;
+}
