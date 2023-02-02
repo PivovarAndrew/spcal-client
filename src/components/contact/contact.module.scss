@@ -1,0 +1,69 @@
+.container {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    margin: 0 50px 0 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10%;
+
+    padding: 50px;
+    text-align: left;
+
+    .inputForm {
+        display: grid;
+        gap: 25px;
+        max-width: 400px;
+
+        .inputGroup {
+            label {
+                color: var(--theme-color);
+                font-weight: 600;
+                font-size: 18px;
+            }
+
+            input[type=text],
+            input[type=email],
+            textarea {
+                font-family: inherit;
+                border: 1px solid rgb(204, 204, 204);
+                padding: 12px 15px;
+                margin: 7px 0;
+                width: 100%;
+                font-size: 18px;
+                max-width: 600px;
+                //max-width: 30vw;
+            }
+
+            textarea {
+                overflow: hidden;
+                resize: vertical;
+                min-height: 50px;
+                min-width: 520px;
+                max-height: 150px;
+            }
+        }
+
+        button {
+            margin: auto;
+            margin-top: 2%;
+            font-size: 24px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: none;
+            width: 200px;
+        }
+    }
+
+    .mapContainer {
+        .info {
+            p {
+                font-size: 16px;
+            }
+
+            a {
+                color: var(--link-color);
+            }
+        }
+    }
+}
